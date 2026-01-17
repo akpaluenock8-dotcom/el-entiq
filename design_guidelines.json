@@ -1,0 +1,133 @@
+{
+  "design_system": {
+    "identity": {
+      "name": "EL-ANTIQ HOSTEL",
+      "archetype": "Academic Luxury",
+      "tone": "Premium, Safe, Reliable, Student-Centric",
+      "vibe": "Boutique Hotel meets University Campus"
+    },
+    "typography": {
+      "headings": {
+        "family": "Syne, sans-serif",
+        "weights": ["700", "800"],
+        "usage": "Use for all H1-H3. Tight tracking (-0.02em).",
+        "import_url": "https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Outfit:wght@300;400;500;700&display=swap"
+      },
+      "body": {
+        "family": "Outfit, sans-serif",
+        "weights": ["300", "400", "500"],
+        "usage": "Use for paragraphs, UI elements, and labels."
+      }
+    },
+    "colors": {
+      "primary": {
+        "navy": "#0F172A",
+        "navy_light": "#1E293B",
+        "description": "Deep, trustworthy blue. Use for primary backgrounds in hero/footer and primary text."
+      },
+      "accent": {
+        "gold": "#D4AF37",
+        "gold_dim": "#B5952F",
+        "description": "Metallic gold. Use sparingly for borders, active states, and primary buttons."
+      },
+      "neutral": {
+        "white": "#FFFFFF",
+        "off_white": "#F8FAFC",
+        "slate": "#64748B",
+        "description": "Clean backgrounds. Avoid pure black."
+      },
+      "semantic": {
+        "success": "#10B981",
+        "error": "#EF4444",
+        "warning": "#F59E0B"
+      }
+    },
+    "layout": {
+      "spacing_scale": "Generous. Use p-8, p-12, p-24. Avoid cramped layouts.",
+      "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+      "grid_system": "Bento Grid (Asymmetric). Avoid equal-width columns for features.",
+      "border_radius": "rounded-lg (8px) for cards, rounded-full for buttons."
+    },
+    "visual_enhancers": {
+      "glassmorphism": "backdrop-blur-xl bg-white/80 border border-white/20 shadow-sm",
+      "shadows": "shadow-[0_8px_30px_rgb(0,0,0,0.04)]",
+      "gradients": "NO generic gradients. Use subtle noise overlays or solid colors.",
+      "noise_texture": "url('https://grainy-gradients.vercel.app/noise.svg')"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#0F172A] text-white hover:bg-[#1E293B] rounded-full px-8 py-3 font-medium transition-all hover:scale-105 active:scale-95 shadow-lg shadow-slate-900/20",
+      "secondary": "bg-white text-[#0F172A] border border-[#0F172A]/10 hover:border-[#0F172A] rounded-full px-8 py-3 font-medium transition-all",
+      "accent": "bg-[#D4AF37] text-white hover:bg-[#B5952F] rounded-full px-8 py-3 font-bold tracking-wide"
+    },
+    "cards": {
+      "room_card": "bg-white rounded-xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 group",
+      "feature_card": "bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:border-[#D4AF37]/30 transition-colors"
+    },
+    "inputs": {
+      "default": "h-12 bg-white border-slate-200 focus:border-[#0F172A] focus:ring-1 focus:ring-[#0F172A] rounded-lg"
+    }
+  },
+  "assets": {
+    "hero_images": [
+      {
+        "url": "https://customer-assets.emergentagent.com/job_hostel-booking-4/artifacts/mohc5zyn_WhatsApp%20Image%202026-01-16%20at%208.10.18%20PM.jpeg",
+        "alt": "Premium Hostel Room Interior",
+        "usage": "Main Hero Background or Primary Slide"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1627889587269-1ec7c8b29049?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxNzV8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBzdHVkZW50JTIwaG9zdGVsJTIwZXh0ZXJpb3IlMjBidWlsZGluZyUyMGFyY2hpdGVjdHVyZXxlbnwwfHx8fDE3Njg1OTQ5NTV8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Modern Hostel Exterior",
+        "usage": "Secondary Hero or Location Section"
+      }
+    ],
+    "room_gallery": [
+      "https://customer-assets.emergentagent.com/job_hostel-booking-4/artifacts/d91sll3v_WhatsApp%20Image%202026-01-16%20at%208.10.19%20PM%20%281%29.jpeg",
+      "https://customer-assets.emergentagent.com/job_hostel-booking-4/artifacts/kdxuhpmm_WhatsApp%20Image%202026-01-16%20at%208.10.19%20PM%20%282%29.jpeg",
+      "https://customer-assets.emergentagent.com/job_hostel-booking-4/artifacts/3stoe6m8_WhatsApp%20Image%202026-01-16%20at%208.10.19%20PM%20%283%29.jpeg",
+      "https://customer-assets.emergentagent.com/job_hostel-booking-4/artifacts/u8725mp2_WhatsApp%20Image%202026-01-16%20at%208.10.19%20PM.jpeg"
+    ],
+    "lifestyle_images": [
+      {
+        "url": "https://images.unsplash.com/photo-1758270705087-76e81a5117bd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwc3R1ZGVudHMlMjBkaXZlcnNlJTIwZ3JvdXAlMjBzdHVkeWluZyUyMGxhdWdoaW5nJTIwY2FtcHVzfGVufDB8fHx8MTc2ODU5NDk1MXww&ixlib=rb-4.1.0&q=85",
+        "alt": "Students Laughing and Studying",
+        "usage": "Community/About Section"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1610070835951-156b6921281d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHw0fHx1bml2ZXJzaXR5JTIwc3R1ZGVudHMlMjBkaXZlcnNlJTIwZ3JvdXAlMjBzdHVkeWluZyUyMGxhdWdoaW5nJTIwY2FtcHVzfGVufDB8fHx8MTc2ODU5NDk1MXww&ixlib=rb-4.1.0&q=85",
+        "alt": "Students on Grass",
+        "usage": "Footer or Testimonials Background"
+      }
+    ]
+  },
+  "page_strategies": {
+    "homepage": {
+      "hero": "Split screen. Left: Bold Typography 'Elevate Your University Life' + CTA. Right: High-quality room image with floating 'Available Now' badge.",
+      "features": "Bento Grid layout. Mix of large and small cards. Use icons for '24/7 Security', 'Fast WiFi', 'Study Rooms'.",
+      "cta": "Full width Navy background. Gold text. 'Secure Your Room for Next Semester'."
+    },
+    "rooms": {
+      "layout": "Grid of 2 columns (Mobile 1). Large images. Price prominent in Gold.",
+      "filters": "Horizontal scrollable pills on mobile. Sidebar on desktop."
+    },
+    "booking": {
+      "layout": "Multi-step wizard. Clean, distraction-free. Progress bar at top.",
+      "summary": "Sticky sidebar on desktop, bottom sheet on mobile."
+    }
+  },
+  "universal_guidelines": {
+    "do_not": [
+      "Use generic gradients.",
+      "Use 'Inter' for headings.",
+      "Center align long text blocks.",
+      "Use pure black (#000000)."
+    ],
+    "must_do": [
+      "Use 'Syne' font for all headings.",
+      "Add 'data-testid' to all interactive elements.",
+      "Ensure mobile-first responsiveness (touch targets > 44px).",
+      "Use the provided user assets for room displays."
+    ]
+  }
+}
